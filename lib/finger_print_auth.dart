@@ -69,7 +69,7 @@ class _FingerprintAuthState extends State<FingerprintAuth> {
     }
 
     setState(() {
-      _availableBiometric = _availableBiometric;
+      _availableBiometric = availableBiometric;
     });
   }
 
